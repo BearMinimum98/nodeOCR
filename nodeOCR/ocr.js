@@ -35,7 +35,7 @@ function start() {
 				} else {
 					console.log("Success: %s", text);
 					response.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
-					response.write(text.substring(0, 5));
+					response.write(text.substring(0, text.length - 2));
 					response.end();
 					fs.unlink("temp/temp.jpg", function(err) {
 						if (err) {
