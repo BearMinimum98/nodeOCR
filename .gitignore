@@ -1,0 +1,11 @@
+*.user.js
+*.log
+Thumbs.db
+.DS_STORE
+.DS_STORE?
+._*
+.Trashes
+.Spotlight-V100
+ehthumbs.db
+nodeOCR/node_modules
+nodeOCR/test
