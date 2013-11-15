@@ -11,3 +11,9 @@ To install:
  3. Local webserver will run at [http://localhost:8888.](http://localhost:8888)
  4. Send XHR with jpeg base64 encoded image as POST body.
  5. nodeOCR will run tesseract on image and return OCR'ed text.
+
+Testing:
+===
+```
+nodeOCR/test/test.html
+```
